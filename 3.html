@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.box{
+			height: 200px;
+			width: 200px;
+			background-color: red;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+
+	<script>
+	//3. используя переменную visible сделайте див с классом box скрытым
+		let visible = "none";
+		let box = document.querySelector(".box");
+		box.style.display = visible;
+	</script>
+</body>
+</html>
